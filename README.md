@@ -4,13 +4,19 @@
 
 ## Установка маркетплейса
 
-В Claude Code добавьте маркетплейс по URL репозитория (ветка `main`), затем установите нужный плагин.
+В Claude Code добавьте каталог (репозиторий на GitHub, ветка по умолчанию — `main`):
 
 ```text
 /plugin marketplace add ypolosov/ypolosov-marketplace
 ```
 
-Если команда отличается в вашей версии клиента, используйте документацию: [Claude Code plugins](https://code.claude.com/docs).
+Из CLI (см. [Create and distribute a plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces)):
+
+```bash
+claude plugin marketplace add ypolosov/ypolosov-marketplace
+```
+
+Обновить локальную копию каталога: `/plugin marketplace update` (или аналог в CLI).
 
 ## Плагины в каталоге
 
@@ -22,13 +28,15 @@
 
 ## Установка плагина ai-driven-sdlc
 
-После подключения маркетплейса:
+После подключения маркетплейса (идентификатор каталога — поле `name` в `marketplace.json`, здесь `ypolosov-marketplace`):
 
 ```text
 /plugin install ai-driven-sdlc@ypolosov-marketplace
 ```
 
-Точное имя маркетплейса в UI может совпадать с полем `name` в `.claude-plugin/marketplace.json` (`ypolosov-marketplace`).
+```bash
+claude plugin install ai-driven-sdlc@ypolosov-marketplace
+```
 
 ## Лицензия
 
