@@ -1,0 +1,75 @@
+{
+  "name": "ypolosov-marketplace",
+  "owner": {
+    "name": "ypolosov"
+  },
+  "metadata": {
+    "description": "Персональный маркетплейс плагинов Claude Code (ypolosov)",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ai-driven-sdlc",
+      "source": {
+        "source": "github",
+        "repo": "ypolosov/ai-driven-sdlc-plugin"
+      },
+      "description": "AI-driven SDLC через призму системного мышления — фазы SDLC, онтология систем, мемом/феном, TDD и fitness hooks",
+      "version": "0.1.0",
+      "author": {
+        "name": "Yuri Polosov"
+      },
+      "repository": "https://github.com/ypolosov/ai-driven-sdlc-plugin",
+      "license": "MIT",
+      "keywords": [
+        "sdlc",
+        "systems-thinking",
+        "ai-driven",
+        "tdd",
+        "traceability"
+      ]
+    },
+    {
+      "name": "fpf-ai",
+      "source": {
+        "source": "github",
+        "repo": "ypolosov/fpf-ai"
+      },
+      "description": "First Principles Framework for software engineering — systematic analysis, architecture design, reviews, and terminology",
+      "version": "1.1.0",
+      "author": {
+        "name": "ypolosov"
+      },
+      "repository": "https://github.com/ypolosov/fpf-ai",
+      "license": "MIT",
+      "keywords": [
+        "first-principles",
+        "systems-engineering",
+        "architecture",
+        "analysis"
+      ]
+    },
+    {
+      "name": "add-ai",
+      "source": {
+        "source": "github",
+        "repo": "ypolosov/add-ai"
+      },
+      "description": "Architecture Decision Support toolkit — ADD 3.0, ADRs, C4, requirements, SDLC, TDD, CI/CD",
+      "version": "3.1.0",
+      "author": {
+        "name": "ypolosov"
+      },
+      "repository": "https://github.com/ypolosov/add-ai",
+      "license": "MIT",
+      "keywords": [
+        "architecture",
+        "add",
+        "adr",
+        "c4",
+        "sdlc",
+        "tdd"
+      ]
+    }
+  ]
+}
