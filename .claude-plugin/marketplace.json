@@ -70,6 +70,31 @@
         "sdlc",
         "tdd"
       ]
+    },
+    {
+      "name": "arch-wiki",
+      "source": {
+        "source": "github",
+        "repo": "ypolosov/arch-wiki"
+      },
+      "description": "LLM-driven Solution Architecture wiki for docs/architecture — ingest/query/lint over an arc42 + ADD 3.0 + ADR (MADR) + C4/LikeC4 knowledge graph (Foam)",
+      "version": "0.1.0",
+      "author": {
+        "name": "ypolosov"
+      },
+      "repository": "https://github.com/ypolosov/arch-wiki",
+      "license": "MIT",
+      "keywords": [
+        "architecture",
+        "arc42",
+        "adr",
+        "madr",
+        "c4",
+        "likec4",
+        "add",
+        "foam",
+        "llm-wiki"
+      ]
     }
   ]
 }

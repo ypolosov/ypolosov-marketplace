@@ -25,6 +25,7 @@ claude plugin marketplace add ypolosov/ypolosov-marketplace
 | **ai-driven-sdlc** | [ypolosov/ai-driven-sdlc-plugin](https://github.com/ypolosov/ai-driven-sdlc-plugin) |
 | **fpf-ai** | [ypolosov/fpf-ai](https://github.com/ypolosov/fpf-ai) |
 | **add-ai** | [ypolosov/add-ai](https://github.com/ypolosov/add-ai) |
+| **arch-wiki** | [ypolosov/arch-wiki](https://github.com/ypolosov/arch-wiki) |
 
 ## Установка плагина ai-driven-sdlc
 
