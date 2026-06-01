@@ -75,7 +75,8 @@
       "name": "arch-wiki",
       "source": {
         "source": "github",
-        "repo": "ypolosov/arch-wiki"
+        "repo": "ypolosov/arch-wiki",
+        "ref": "v0.1.0"
       },
       "description": "LLM-driven Solution Architecture wiki for docs/architecture — ingest/query/lint over an arc42 + ADD 3.0 + ADR (MADR) + C4/LikeC4 knowledge graph (Foam)",
       "version": "0.1.0",
