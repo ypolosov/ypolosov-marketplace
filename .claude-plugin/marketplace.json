@@ -76,10 +76,10 @@
       "source": {
         "source": "github",
         "repo": "ypolosov/arch-wiki",
-        "ref": "v0.1.0"
+        "ref": "v0.2.2"
       },
-      "description": "LLM-driven Solution Architecture wiki for docs/architecture — ingest/query/lint over an arc42 + ADD 3.0 + ADR (MADR) + C4/LikeC4 knowledge graph (Foam)",
-      "version": "0.1.0",
+      "description": "Deterministic, tool-first architecture-wiki contract: CLI + hooks for next-id, scaffold, lint, validate-graph, sync-templates, guard-path, migrate/adopt (schema v1). JSON-envelope output, non-destructive adoption of existing wikis.",
+      "version": "0.2.2",
       "author": {
         "name": "ypolosov"
       },
