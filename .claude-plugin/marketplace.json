@@ -76,10 +76,10 @@
       "source": {
         "source": "github",
         "repo": "ypolosov/arch-wiki",
-        "ref": "v0.2.3"
+        "ref": "v0.4.0"
       },
-      "description": "Deterministic, tool-first architecture-wiki contract: CLI + hooks for next-id, scaffold, lint, validate-graph, sync-templates, guard-path, migrate/adopt (schema v1). JSON-envelope output, non-destructive adoption of existing wikis.",
-      "version": "0.2.3",
+      "description": "Deterministic, tool-first architecture-wiki contract: CLI + hooks for next-id, scaffold, lint, validate-graph, sync-templates, guard-path, migrate/adopt (schema v2). Agnostic ProjectConfig + a design process flow (hypothesis → questionnaire → ingest → render-issue → trace) with a traceability ledger and books-rag enrichment. JSON-envelope output, non-destructive adoption.",
+      "version": "0.4.0",
       "author": {
         "name": "ypolosov"
       },
