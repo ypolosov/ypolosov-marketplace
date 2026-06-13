@@ -76,10 +76,10 @@
       "source": {
         "source": "github",
         "repo": "ypolosov/arch-wiki",
-        "ref": "v0.5.1"
+        "ref": "v0.6.0"
       },
-      "description": "Deterministic, tool-first architecture-wiki contract: CLI + hooks for next-id, scaffold, lint, validate-graph, sync-templates, guard-path, migrate/adopt (schema v2). Agnostic ProjectConfig + a design process flow (hypothesis → questionnaire → ingest → render-issue → trace) with a traceability ledger and books-rag enrichment. Egress to Jira/GitLab (human-gated /arch-wiki:issue) and a full 1:1 Confluence KB mirror (/arch-wiki:publish: create/update/delete reconciled, visibility filter, cross-links). Ingest the Product Owner's Confluence User Story Log (/arch-wiki:pull-stories → raw/_synced), and check C4 model ⟷ wiki consistency (/arch-wiki:validate-c4) with Foam + LikeC4 MCP as read-only navigation aids. JSON-envelope output, non-destructive adoption.",
-      "version": "0.5.1",
+      "description": "Deterministic, tool-first architecture-wiki contract: CLI + hooks for next-id, scaffold, lint, validate-graph, sync-templates, guard-path, migrate/adopt (schema v2). Agnostic ProjectConfig + a design process flow (hypothesis → questionnaire → ingest → render-issue → trace) with a traceability ledger and books-rag enrichment. Egress to Jira/GitLab (human-gated /arch-wiki:issue) and a full 1:1 Confluence KB mirror (/arch-wiki:publish: create/update/delete reconciled, visibility filter, root-relative cross-links, optional RU translation projection). Ingest the Product Owner's Confluence User Story Log (/arch-wiki:pull-stories → raw/_synced), and check C4 model ⟷ wiki consistency (/arch-wiki:validate-c4) with Foam + LikeC4 MCP as read-only navigation aids. JSON-envelope output, non-destructive adoption.",
+      "version": "0.6.0",
       "author": {
         "name": "ypolosov"
       },
