@@ -76,10 +76,10 @@
       "source": {
         "source": "github",
         "repo": "ypolosov/arch-wiki",
-        "ref": "v0.24.0"
+        "ref": "v0.25.0"
       },
       "description": "Deterministic, tool-first architecture-wiki contract: CLI + hooks for next-id, scaffold, lint, validate-graph, sync-templates, guard-path, migrate/adopt (schema v2). Agnostic ProjectConfig + a design process flow (hypothesis → questionnaire → ingest → render-issue → trace) with a traceability ledger and books-rag enrichment. Egress to Jira/GitLab (human-gated /arch-wiki:issue — self-contained body with the Confluence-mirror link inlined at each artifact's first mention) and a safe, full 1:1 Confluence KB mirror (/arch-wiki:publish: numeric spaceId + cloudId, deterministic destination-drift guard, bidirectional issue↔page trace, create/update/delete reconciled, visibility filter, cross-links, optional RU translation projection incl. titles, C4-diagram placeholders). Ingest the Product Owner's Confluence User Story Log (/arch-wiki:pull-stories → raw/_synced), and check C4 model ⟷ wiki consistency (/arch-wiki:validate-c4) with Foam + LikeC4 MCP as read-only navigation aids. FPF-grounded governance layer: graded AssuranceLevel L0/L1/L2 + an epistemic-debt decay register with human-gated waivers (/arch-wiki:assurance), per-kind structural adequacy review (/arch-wiki:review), a deterministic mirror-faithfulness gate (verify-mirror), a Unified-Term-Sheet glossary check, ProblemCard + abductive-discipline hypotheses, CSLC/Q-Bundle QA measures, and boundary-norm-classified constraints. JSON-envelope output, non-destructive adoption.",
-      "version": "0.24.0",
+      "version": "0.25.0",
       "author": {
         "name": "ypolosov"
       },
